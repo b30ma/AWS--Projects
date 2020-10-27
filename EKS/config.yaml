@@ -1,0 +1,18 @@
+apiVersion: eksctl.io/v1alpha5
+kind: Config
+
+metadata:
+  name: <my-cluster>
+  region: <<us-east-2>
+  version: '<0.29.1>'  
+managedNodeGroups:
+  - name: <linux-ng>
+    instanceType: <m5.large>
+    minSize: <2>
+
+nodeGroups:
+  - name: <windows-ng>
+    instanceType: <m5.large>
+    minSize: <2>
+    volumeSize: <100>
+    amiFamily: <WindowsServer2019FullContainer>

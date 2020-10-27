@@ -1,0 +1,30 @@
+{
+  "name": "NodeJS -sample-AWS",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.689.0",
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b30ma/AWS-Projects"
+  },
+  "keywords": [
+    "node",
+    "Sima",
+    "express"
+  ],
+  "author": "Sima Bashirian",
+  "contributors": [
+    "Sima Bashirian <Sima.Bashirian@gmail.com>"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+apiVersion: eksctl.io/v1alpha5
+kind: Cluster
+
+# metadata:
+#   name: <my-cluster>
+#   region: <us-east-2>
+#   version: '<0.29.1>'  
+# managedNodeGroups:
+# - name: <ng-linux>
+#   launchTemplate:
+#     id: lt-<id>
+#     version: "<1>"
