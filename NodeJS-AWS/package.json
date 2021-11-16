@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.689.0",
+    "aws-sdk": "^2.814.0",
     "express": "^4.13.3"
   },
   "engines": {
